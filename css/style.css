@@ -1,0 +1,57 @@
+/***
+        css
+        modify as you want to solve the problem
+
+***/
+body {background:#f9f9f9; font-size:12px; line-height:20px; font-family:'Montserrat', Arial, sans-serif; color:#565a5c;-webkit-font-smoothing: antialiased;}
+
+h1, h2, h3, h4, h5, h6{-webkit-font-smoothing:antialiased; color:#333;}
+h3{ font-size:22px;}
+
+.main_title{ text-align:center; font-size:16px; margin-bottom:30px;margin-top: 30px;}
+.main_title h2{ text-transform: uppercase; font-weight:700; letter-spacing:-1px; font-size:30px; margin-bottom:0;margin-top:0; }
+.main_title p{ font-family:'Lato',Arial, sans-serif; font-weight:300; font-size:20px}
+/** dsa addition **/
+.main_title_custom h2{ font-size:16px;}
+.main_title_custom h2{ font-weight:700; letter-spacing:-1px; font-size:30px;}
+
+h2 span, h3 span, h4 span, h5 span, h6 span{color:#e04f67;}
+
+/* col boxes*/
+.block_container{
+    background-color:#fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    margin:0;
+    margin-bottom:30px;
+}
+.img_container{
+    position:relative;
+    overflow: hidden;
+    border:1px solid #fff;
+}
+.block_container .block_title{
+    padding:15px;
+    position:relative;
+}
+.block_container .block_title .rating{
+    font-size:14px;
+    margin-left:-3px;
+}
+.block_container .block_title h3{
+    margin:0;
+    font-size:18px;
+    text-transform:uppercase;
+}
+.img_container a:hover img {
+    -webkit-transform:scale(1);
+    transform:scale(1);
+}
+.img_container img {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
