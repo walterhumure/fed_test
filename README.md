@@ -12,7 +12,7 @@ You need to use css and or javascript to make sure the boxes remain the same hei
 - You are allowed to have the main div mask some of the image if applicable. 
 - You are allowed to use javascript.
 
-- You are not allowed to set all the boxes' height to the max of the longest one. This causes too much whitespace at the bottom of a short one next to a long one.
+- You are to keep the image container height the same regardless of the image dimensions. The image container height size and how it is determined or worked out is up for you to decide.
 
 The final product must be mobile friendly.
 
