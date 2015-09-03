@@ -1,5 +1,6 @@
 /***
-        Just changed the last 2 lines to make sure that image fits into the image container
+        css
+        modify as you want to solve the problem
 
 ***/
 body {background:#f9f9f9; font-size:12px; line-height:20px; font-family:'Montserrat', Arial, sans-serif; color:#565a5c;-webkit-font-smoothing: antialiased;}
@@ -52,7 +53,5 @@ h2 span, h3 span, h4 span, h5 span, h6 span{color:#e04f67;}
     transform:scale(1.2);
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
-    width: 100%; /* Image width must fit in img_container */
-    height: 100%; /* The same goes for the image height*/
 }
 
